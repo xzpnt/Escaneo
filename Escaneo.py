@@ -23,7 +23,7 @@ ip = input("[+] Introduce la dirección IP objetivo: ")
 
 nm = nmap.PortScanner()
 
-results = nm.scan(hosts=ip, arguments="-sS -O") 
+results = nm.scan(hosts=ip, arguments="-sS -O -A") 
 print("Host : %s" % ip)
 print("State : %s" % nm[ip].state())
 
