@@ -19,11 +19,11 @@ print("   .   'C/ |    |    |   |    |mrf  ,")
 print("   \), .. .'OOO-'. ..'OOO'OOO-'. ..\(,")
 
 
-ip = input("[+] Introduce la dirección IP objetivo: ")
+ip = input("[+] Introduce la dirección IP: ")
 
 nm = nmap.PortScanner()
 
-results = nm.scan(hosts=ip, arguments="-sS -O -A") 
+results = nm.scan(hosts=ip, arguments="-sS -O -A -sV") 
 print("Host : %s" % ip)
 print("State : %s" % nm[ip].state())
 
