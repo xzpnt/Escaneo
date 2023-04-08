@@ -1,7 +1,7 @@
-# Script para escanear puertos, el sistema operativo y servicios.
+# Script para escanear puertos, el sistema operativo y servicios. 
 
-Escaneo de puertos con argumentos de -sS -O -A
+Escaneo de puertos con argumentos de -sS -O -A -sV
 
-Version del script 0.60
 
-[+]Creado simplemente para el aprendizaje de ciberseguridad.
+
+
